@@ -1,0 +1,11 @@
+{
+    "name": "escudo/api-coin-gecko-test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Escudo",
+            "email": "perm.fest@yandex.ru"
+        }
+    ],
+    "require": {}
+}
