@@ -1,5 +1,6 @@
 {
     "name": "escudo/api-coin-gecko-test",
+    "description": "",
     "type": "library",
     "authors": [
         {
@@ -7,5 +8,14 @@
             "email": "perm.fest@yandex.ru"
         }
     ],
-    "require": {}
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Escudo\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
+    }
 }
