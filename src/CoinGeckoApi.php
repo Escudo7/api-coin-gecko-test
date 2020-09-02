@@ -34,7 +34,9 @@ class CoinGeckoApi
 
     public function getData($options = [])
     {
-        $response = $this->client->request('GET', $this->coin, ['query' => $options]);
+        $newOptions = $this->setOptionsToString($options);
+
+        $response = $this->client->request('GET', $this->coin, ['query' => $newOptions]);
         return $response->getBody();
     }
 
